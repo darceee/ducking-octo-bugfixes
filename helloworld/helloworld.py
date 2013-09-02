@@ -4,7 +4,7 @@ from google.appengine.api import urlfetch
 def experiment_interest_level():
 	data = urlfetch.fetch("http://www.reddit.com/r/MysteryManipulation/comments/1lj9pa/15/")
 	if data.status_code == 200:
-		return str(data.content).find('I think this would be easier to do using Ruby instead of Python.')
+		return str(data.content).find('no comments (yet)')
 
 class MainPage(webapp2.RequestHandler):
 
