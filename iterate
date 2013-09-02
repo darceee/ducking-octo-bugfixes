@@ -1,5 +1,5 @@
 clear
 ./changelog 2>&1|less
-./store
 ./pay_attention 2>&1|less
+./store
 ./share

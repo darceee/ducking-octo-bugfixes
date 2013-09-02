@@ -1,1 +1,3 @@
+git diff --exit-code|less
+echo $?
 git push
